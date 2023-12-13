@@ -173,7 +173,7 @@ WHERE stockQuantity > 5;
 SELECT * FROM orders
 WHERE total_price BETWEEN 500.00 AND 1000.00;
 
--- 6. Find Products which name end with letter ‘r’.
+-- 6. Find Products which name end with letter â€˜râ€™.
 SELECT * FROM products
 WHERE name LIKE '%r';
 
